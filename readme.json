@@ -1,0 +1,4 @@
+{"Description":"The loan approval asset exposes one endpoint which takes loan amount and the current salary which the user is withdrawing, based on that it will calculate and return the final amount",
+"apiDetails":{"endpoint":"/apiEndnpoint"}}
+
+
