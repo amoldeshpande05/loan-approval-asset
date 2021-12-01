@@ -20,3 +20,4 @@ spec:
           image: amoldeshpande/loanapproval-v1:latest
           ports:
             - containerPort: 8080
+# http://169.51.206.174:32518/

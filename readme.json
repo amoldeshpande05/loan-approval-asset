@@ -1,5 +1,5 @@
 {"Description":"The loan approval asset exposes one endpoint which takes loan amount and the current salary which the user is withdrawing, based on that it will calculate and return the final amount",
-"apiDetails":{"endpoint":"http://169.51.206.174:32518","endpoint1":"validateLoan","Method":"GET","Details":"Takes two variables, loan and income, based on that it will return Loan Approved or Rejected"}}
+"apiDetails":{"endpoint":"http://169.51.206.174:32518","endpoint1":"validateLoan","Method":"GET","Details":"Takes two variables, salary and loan, based on the values it will return the loan status"},"sampleCode":"axios.get('http://169.51.206.174:32518/validateLoan?loan=5000&income=5000').then(resp => {console.log(resp.data);})","sampleResponse":"res.json({\"result\":\"Loan Approved\",status:200})"}
 
 
 
