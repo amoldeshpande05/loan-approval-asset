@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loan-approval-asset
+  namespace: default
+  labels:
+    app: loan-approval-asset
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loan-approval-asset
+  template:
+    metadata:
+      labels:
+        app: loan-approval-asset
+    spec:
+      containers:
+        - name: loan-approval-asset
+          image: amoldeshpande/loanapproval-v1:latest
+          ports:
+            - containerPort: 8080

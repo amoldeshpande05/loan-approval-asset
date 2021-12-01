@@ -1,4 +1,5 @@
 {"Description":"The loan approval asset exposes one endpoint which takes loan amount and the current salary which the user is withdrawing, based on that it will calculate and return the final amount",
-"apiDetails":{"endpoint":"/apiEndnpoint"}}
+"apiDetails":{"endpoint":"http://169.51.206.174:32518","endpoint1":"validateLoan","Method":"GET","Details":"Takes two variables, loan and income, based on that it will return Loan Approved or Rejected"}}
+
 
 
